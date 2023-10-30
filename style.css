@@ -1,0 +1,124 @@
+html {
+    height: 100%;
+}
+
+.header {
+    background-color: rgb(9, 17, 56);
+    padding: 60px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: white;
+}
+
+body {
+    background-color: rgb(39, 37, 37);
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:lighter;
+    color: rgb(221, 235, 241);
+    height: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: rgb(24, 20, 20);
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+a:link {
+    text-decoration: none;
+    font-weight:normal;
+    color:rgb(0, 204, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+    color:rgb(182, 100, 68);
+}
+
+a:visited {
+    color:rgb(43, 88, 184);
+}
+
+.menu a {
+    padding: 10px;
+    width: 200px;
+}
+
+.content {
+    padding: 20px 40px 100px 40px;
+    align-content: top;
+}
+
+.page {
+    display: flex;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(9, 17, 56);
+    padding: 20px;
+    color: white;
+}
+
+p {
+    text-indent: 2em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    line-height: 1.7em;
+}
+
+ul
+{
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5em;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    color:rgb(182, 100, 68);
+}
+
+blockquote {
+    font-style:italic;
+}
+
+table {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #27478b;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+td {
+    border-style: solid;
+    border-width: 1px;
+    border-color:#27478b;
+    padding: 10px;
+}
+
+th {
+    padding: 5px;
+    background-color: #27478b;
+    color: white;
+    text-align: center;
+}
+
+img {
+    float: right;
+    margin: 10px;
+}
